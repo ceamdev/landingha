@@ -3,8 +3,88 @@
     padding: 0px;
     box-sizing: border-box;
 }
+:root{
+    --Purp:#5a2583;
+    --DarkPurp:#32184b;
+    --newW:#a47ab5;
+    --mageWOM:#e2007a;
+    --DGrey:#3c3c3b;
+    --LGrey:#c2c0c4;
+    --White:#ffffff;
+    --Black:#000000;
+}
 body {
-    background-color: black;
-    color: blanchedalmond;
-    font-size: 28px;
+    background-color: var(--DarkPurp);
+    color: var(--White);
+    font-size: 36px;
+}
+header {
+    background-color: var(--Purp);
+    color: var(--White);
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+    border: 1px solid var(--Purp);
+    border-radius: 5px 5px 5px 5px;
+    font-size: 0.8em;
+}
+nav {
+    background-color: var(--White);
+    color: var(--Purp);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid var(--White);
+    border-radius: 5px 5px 5px 5px;
+    font-size: 0.5em;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 25px;
+    margin: 0px auto;
+    text-transform: uppercase;
+}
+nav ul li a, nav ul li a:active {
+    color:var(--Purp);
+    font-weight: bold;
+}
+nav ul li a:hover, nav ul li a:visited {
+    color:var(--DarkPurp);
+    text-decoration: none;
+    transition: all ease 3s;
+    font-weight: 800;
+}
+main {
+    background-color: var(--White);
+    color: var(--Black);
+    border: 2px solid var(--DarkPurp);
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 0.8em;
+}
+main section {
+    background-color: var(--White);
+    color: var(--Black);
+    border: 2px solid var(--DarkPurp);
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 0.6em;
+}
+main cite {
+    margin: 10px;
+    padding: 10px;
+}
+main h2 {
+    border-bottom: 2px dotted var(--DarkPurp);
+}
+main img {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+main p {
+    padding: 10px;
 }
