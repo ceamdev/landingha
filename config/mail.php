@@ -7,8 +7,8 @@ return [
     | Default Mailer
     |--------------------------------------------------------------------------
     |
-    | This option controls the default mailer that is used to send any email
-    | messages sent by your application. Alternative mailers may be setup
+    | This option controls the default mailer that is used tosend any email
+    | messagessent by your application. Alternative mailers may besetup
     | and used as needed; however, this mailer will be used by default.
     |
     */
@@ -21,11 +21,11 @@ return [
     |--------------------------------------------------------------------------
     |
     | Here you may configure all of the mailers used by your application plus
-    | their respective settings. Several examples have been configured for
+    | their respectivesettings.several examples have been configured for
     | you and you are free to add your own as your application requires.
     |
     | Laravel supports a variety of mail "transport" drivers to be used while
-    | sending an e-mail. You will specify which one you are using for your
+    |sending an e-mail. You will specify which one you are using for your
     | mailers below. You are free to add additional mailers as required.
     |
     | Supported: "smtp", "sendmail", "mailgun", "ses", "ses-v2",
@@ -101,9 +101,9 @@ return [
     | Global "From" Address
     |--------------------------------------------------------------------------
     |
-    | You may wish for all e-mails sent by your application to be sent from
+    | You may wish for all e-mailssent by your application to besent from
     | the same address. Here, you may specify a name and address that is
-    | used globally for all e-mails that are sent by your application.
+    | used globally for all e-mails that aresent by your application.
     |
     */
 
@@ -114,7 +114,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Markdown Mail Settings
+    | Markdown Mailsettings
     |--------------------------------------------------------------------------
     |
     | If you are using Markdown based email rendering, you may configure your
