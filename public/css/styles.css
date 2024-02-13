@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --Purp:#5a2583;
+    --DarkPurp:#32184b;
+    --newW:#a47ab5;
+    --mageWOM:#e2007a;
+    --DGrey:#3c3c3b;
+    --LGrey:#c2c0c4;
+    --White:#ffffff;
+    --Black:#000000;
+}
+body {
+    background-color: var(--DarkPurp);
+    color: var(--White);
+    font-size: 48px;
+}
+    header {
+        background-color: var(--Purp);
+        padding: 50px;
+        margin: 10px;
+        border: 1px solid var(--Purp);
+        border-radius: 5px 5px 5px 5px;
+    }
+    header h1 {
+        font-size: 2em;
+        color: var(--White);
+        text-align: center;
+    }
+    button[type=button] {
+        display: inline-block;
+        background-color: var(--Purp);
+        border: 1px solid var(--DarkPurp);
+        color: var(--White);
+        font-size: 0.95em;
+        font-weight: 600;
+        margin: 10px;
+        padding: 10px 30px;
+    }    
+    button[type=button]:hover {
+        background-color: var(--DarkPurp);
+        border: 1px solid var(--Purp);
+        color: var(--White);
+    }
+    nav {
+        background-color: var(--White);
+        text-align: center;
+        padding: 0px;
+        margin: 10px auto;
+        border: 1px solid var(--White);
+        border-radius: 5px 5px 5px 5px;
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+    nav ul li {
+        display: inline-block;
+        padding: 10px;
+        margin: 0px auto;
+        list-style: none;
+        text-transform: uppercase;
+    }
+    nav ul li .nav-link a {
+        color:var(--DarkPurp);
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav ul li  .nav-link  a:hover {
+        color:var(--Purp);
+        text-decoration: none;
+        font-weight: bold;
+    }
+    aside {
+        background-color: var(--Purp);
+        border: 5px solid var(--Purp);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px auto;
+    }
+    aside .carousel-item img {        
+        max-width: 100%;
+        width: 100%;
+        max-height: 450px;
+        height: 450px;
+        border-radius: 10px;
+    }
+    aside h4 {
+        font-weight: bold;
+        font-size: 1.25;
+        color: var(--Black);
+    }
+    section {
+        background-color: var(--White);
+        color: var(--Black);
+        border-radius: 10px 10px 10px 10px;
+    }
+    section .course-info article img {
+        display: block;
+        margin: 0px auto;
+        width: 100px;
+        height: 100px;
+        border: 0px;
+    }
+    section .course-info h3 {
+        text-align: center;
+        font-size: 1.50em;
+        padding: 10px;
+    }
+    section .course-info p {
+        padding: 10px;
+        color: var(--Purp);
+    }
+    section article {
+        width: 100%;
+    }
+    section cite {
+        margin: 0px auto;
+        padding: 10px;
+        font-size: 1em;
+    }
+    section cite h2 {
+        font-size: 1.75em;
+        border-bottom: 1px solid var(--Purp);
+    }
+    section cite p {
+        padding: 5px;
+        border: 1px solid var(--mageWOM);
+        border-radius: 0px 10px 10px 10px;
+    }
+    section cite img {
+        width: 100px;
+        height: 100px;
+        border: 0px;
+        background-color: var(--Purp);
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid var(--mageWOM);
+        border-radius: 50px;
+        float: left;
+    }
+
+    footer { 
+        text-align: center;
+        font-size: 0.95em;
+        padding: 10px;
+        margin: 10px;
+    }

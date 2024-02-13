@@ -2,6 +2,31 @@
 @section('title', 'Home')
 @section('content')
 <section class="container">
+    <section class="row course-info">
+        <article class="col-xl-4 col-md-4 col-sm-12">
+            <h3>PRÁCTICO</h3>
+            <img src="{{ asset('imgs/carlos.png') }}" alt="Cursos">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+        <article class="col-xl-4 col-md-4 col-sm-12">
+            <h3>FUNCIONAL</h3>
+            <img src="{{ asset('imgs/carlos.png') }}" alt="Cursos">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+        <article class="col-xl-4 col-md-4 col-sm-12">
+            <h3>ACTUALIZADO</h3>
+            <img src="{{ asset('imgs/carlos.png') }}" alt="Cursos">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+    </section>
+</section>
+<section class="container">
         <a name="testimonios"></a>
     <section class="row">
         <h2 class="text-center p-2 m-2">¿Qué dicen nuestros estudiantes?</h2>
@@ -9,12 +34,12 @@
         <article class="col-xl-6 col-md-6 col-sm-12">
             <cite>
                 <h2>Carlos Astudillo - <small>Diseño Gráfico</small></h2>
-                <img src="../resources/imgs/carlos.png" alt="Carlos Astudillo"/>
+                <img src="{{ asset('imgs/carlos.png') }}" alt="Carlos Astudillo"/>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus eius itaque, debitis maxime rerum blanditiis, distinctio molestiae esse et, odit facere minima inventore? Expedita maxime numquam suscipit voluptas maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error maxime.</p>
             </cite>
             <cite>
                 <h2>Carlos Astudillo - <small>Diseño Gráfico</small></h2>
-                <img src="../resources/imgs/carlos.png" alt="Carlos Astudillo"/>
+                <img src="{{ asset('imgs/carlos.png') }}" alt="Carlos Astudillo"/>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus eius itaque, debitis maxime rerum blanditiis, distinctio molestiae esse et, odit facere minima inventore? Expedita maxime numquam suscipit voluptas maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error maxime.</p>
             </cite>
         </article>

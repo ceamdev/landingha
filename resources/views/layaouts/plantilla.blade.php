@@ -6,23 +6,14 @@
     <title>@yield('title') - Harmony Academy - ErickMaldonado.us</title>
     <!-- favicon -->
     <!-- style css -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../resources/css/app.css">
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 </head>
 <body>
     <!-- header -->
     <header class="container">
         <h1>Harmony Academy</h1>
     </header>
-    <!-- nav -->
-    {{-- <nav class="container navbar">
-        <ul>
-            <li><a href="./">Inicio</a></li>
-            <li><a href="./#testimonios">Testimonios</a></li>
-            <li><a href="cursos">Cursos</a></li>
-        </ul>
-    </nav> --}}
-
     <nav class="container navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,35 +46,35 @@
             </div>
             <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../resources/imgs/1.jpg" class="d-block w-100" alt="...">
+                <img src="{{ asset('imgs/1.jpg') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../resources/imgs/2.jpg" class="d-block w-100" alt="...">
+                <img src="{{ asset('imgs/2.jpg') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 <h5>Second slide label</h5>
                 <p>Some representative placeholder content for the second slide.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../resources/imgs/3.jpg" class="d-block w-100" alt="...">
+                <img src="{{ asset('imgs/3.jpg') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../resources/imgs/1.jpg" class="d-block w-100" alt="...">
+                <img src="{{ asset('imgs/1.jpg') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 <h5>Four slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../resources/imgs/2.jpg" class="d-block w-100" alt="...">
+                <img src="{{ asset('imgs/2.jpg') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 <h5>Five slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
@@ -109,7 +100,7 @@
         <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable ">
         <div class="modal-content">
             <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">TESTIMONIOS</h5>
+            <h4 class="modal-title" id="staticBackdropLabel">TESTIMONIOS</h4>
             </div>
             <div class="modal-body">
             <section class="container">
@@ -117,12 +108,12 @@
                 <article>
                     <cite>
                         <h2>Carlos Astudillo - <small>Diseño Gráfico</small></h2>
-                        <img src="../resources/imgs/carlos.png" alt="Carlos Astudillo"/>
+                        <img src="{{ asset('imgs/carlos.png') }}" alt="Carlos Astudillo"/>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus eius itaque, debitis maxime rerum blanditiis, distinctio molestiae esse et, odit facere minima inventore? Expedita maxime numquam suscipit voluptas maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error maxime.</p>
                     </cite>
                     <cite>
                         <h2>Carlos Astudillo - <small>Diseño Gráfico</small></h2>
-                        <img src="../resources/imgs/carlos.png" alt="Carlos Astudillo"/>
+                        <img src="{{ asset('imgs/carlos.png') }}" alt="Carlos Astudillo"/>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus eius itaque, debitis maxime rerum blanditiis, distinctio molestiae esse et, odit facere minima inventore? Expedita maxime numquam suscipit voluptas maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error maxime.</p>
                     </cite>
                 </article>
@@ -143,7 +134,7 @@
         <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable ">
             <div class="modal-content">
                 <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">TESTIMONIOS (Videos)</h5>
+                <h4 class="modal-title" id="staticBackdropLabel">TESTIMONIOS (Videos)</h4>
                 </div>
                 <div class="modal-body">
                 <section class="container">
@@ -175,8 +166,7 @@
         &copy; 2023 - <?php echo date('Y'); ?> - Derechos Reservados - Harmony Academy - Erick Maldonado 
     </footer>
     <!-- script -->
-    <script src="../resources/js/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" ></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="{{ asset('js/popper.min.js') }}" ></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 </body>
 </html>
