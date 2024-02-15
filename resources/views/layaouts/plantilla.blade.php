@@ -105,19 +105,121 @@
             <div class="modal-body">
             <section class="container">
                 <section class="row">
-                <article>
+                    <article class="card border-light col-xl-6 col-md-12 col-sm-12">
+                        <cite>
+                            <h2>Julio Moreno - <small>Diseño Gráfico.</small></h2>
+                            <img src="{{ asset('imgs/sin-foto.jpg') }}" alt="Julio Moreno, Diseño Gráfico.."/>
+                            <p>Buenas tardes, el curso me parece muy entretenido las clases han sido bien estructurada y he estado, conforme con lo que hemos visto hasta lo momentos</p>
+                        </cite>
+                    </article>
+                    <article class="card border-light col-xl-6 col-md-12 col-sm-12">
+                        <cite>
+                            <h2>Sarah Khazmou - <small>Diseño Gráfico.</small></h2>
+                            <img src="{{ asset('imgs/sarah-khazmou.jpg') }}" alt="Sarah Khazmou, Diseño Gráfico.."/>
+                            <p>Holaa, las clases muy activas y dinámicas, el profesor excelente. De verdad estoy muy contenta con el rendimiento y todo lo aprendido!</p>
+                        </cite>
+                    </article>
+                    <article class="card border-light col-xl-6 col-md-12 col-sm-12">
+                        <cite>
+                            <h2>José Daniel Gil - <small>Diseño Gráfico.</small></h2>
+                            <img src="{{ asset('imgs/jose-daniel-gil.jpg') }}" alt="José Daniel Gil, Diseño Gráfico.."/>
+                            <p>Buenos días, el curso me parece muy chévere las clases son dinámicas, ahí buen ambiente y el profesor explica de manera entretenida haciendo interesantes las clases.</p>
+                        </cite>
+                    </article>
+                    <article class="card border-light col-xl-6 col-md-12 col-sm-12">
+                        <cite>
+                            <h2>Adrianyela Reyes - <small>Diseño Gráfico.</small></h2>
+                            <img src="{{ asset('imgs/adrianyela-reyes.jpg') }}" alt="Adrianyela Reyes, Diseño Gráfico.."/>
+                            <p>Buenos días compañeros. Cómo integrante del grupo de diseño grafico, les comparto que hasta ahora la experiencia ha sido muy gratificante. Desde la flexibilidad que tiene nuestro profesor a la hora de realizar su clase, hasta la buena comunicación que tenemos entre los compañeros de clase. Me siento muy conforme actualmente por todo lo que estoy aprendiendo en el área de diseño y la forma en como se realizan cada una de las actividades, definitivamente hace que te guste lo que estás haciendo y le puedas poner más dedicación para seguir aprendiendo cosas nuevas y salir de nuestra zona de confort.</p>
+                        </cite>
+                    </article>
+                    <article class="card border-light col-xl-6 col-md-12 col-sm-12">
+                        <cite>
+                            <h2>Juan Guevara - <small>Diseño Gráfico.</small></h2>
+                            <img src="{{ asset('imgs/juan-guevara.jpg') }}" alt="Juan Guevara, Diseño Gráfico.."/>
+                            <p>Bueno, el curso yo lo veo muy bueno, el ambiente de trabajo también es demasiado bueno ☺️, estoy agradecido de poder estar en el curso y espero seguir avanzando en este mismo. Muy bueno la verdad.</p>
+                        </cite>
+                    </article>
+                    <article class="card border-light col-xl-6 col-md-12 col-sm-12">
+                        <cite>
+                            <h2>Rossany Pereira - <small>Diseño Gráfico.</small></h2>
+                            <img src="{{ asset('imgs/sin-foto.jpg') }}" alt="Rossany Pereira, Diseño Gráfico.."/>
+                            <p>Buenos días para todos. Las clases de diseño gráfico son excelentes, me gusta mucho la forma de estudio que implementa la institución y la forma dinámica del profesor para explicar y enseñar la clase. El ambiente también es muy agradable. 🩷</p>
+                        </cite>
+                    </article>
+                    <article class="card border-light col-xl-6 col-md-12 col-sm-12">
+                        <cite>
+                            <h2>Esther Subero - <small>Diseño Gráfico.</small></h2>
+                            <img src="{{ asset('imgs/esther-subero.jpg') }}" alt="Esther Subero, Diseño Gráfico.."/>
+                            <p>Buenos días!! La verdad las clases son muy chéveres, muy práctico y dinámico... El profesor es excelente y su manera de explicar es de fácil comprensión y todo en la clase siempre se ha mantenido en un ambiente muy grato... De verdad me siento muy bien de formar parte de este grupo de formacion...  Son muy excelentes!!</p>
+                        </cite>
+                    </article>
+                    <article class="card border-light col-xl-6 col-md-12 col-sm-12">
+                        <cite>
+                            <h2>Valeria Sandoval - <small>Marketing Digital</small></h2>
+                            <img src="{{ asset('imgs/valeria-sandoval.jpg') }}" alt="Valeria Sandoval, Marketing Digital."/>
+                            <p>Buenos dias, las clases super chéveres y dinámicas, se entiende bastante bien, y el ambiente es muy bueno✨</p>
+                        </cite>
+                    </article>
+                    <article class="card border-light col-xl-6 col-md-12 col-sm-12">
+                        <cite>
+                            <h2>María Frias - <small>Marketing Digital</small></h2>
+                            <img src="{{ asset('imgs/maria-frias.jpg') }}" alt="María Frias, Marketing Digital."/>
+                            <p>Aunque no son las mismas clases ni los mismos compañeros, el ambiente es muy ameno, y bueno como ya había dicho uno interviene de forma libre aprendiendo entre todos. No hay pregunta que no se responda ni duda que quede. En conclusión, si se aprende. Gracias al equipo por este programa. Más por clases así!.</p>
+                        </cite>
+                    </article>
+                    <article class="card border-light col-xl-6 col-md-12 col-sm-12">
+                        <cite>
+                            <h2>Valeria Guzmán - <small>Marketing Digital</small></h2>
+                            <img src="{{ asset('imgs/sin-foto.jpg') }}" alt="Valeria Guzmán, Marketing Digital."/>
+                            <p>Buenos días, me gusta mucho la dinámica y la enseñanza que nos deja, gracias Erick Maldona, por hacer de la clase un ambiente entretenido y lleno de conocimientos ✨</p>
+                        </cite>
+                    </article>
+                    <article class="card border-light col-xl-6 col-md-12 col-sm-12">
+                        <cite>
+                            <h2>Fiorena Idrogo - <small>Marketing Digital</small></h2>
+                            <img src="{{ asset('imgs/fiorela-idrogo.jpg') }}" alt="Fiorena Idrogo, Marketing Digital."/>
+                            <p>Este curso de Marketing Digital me parece excelente es una forma divertida de aprender y es algo donde puedes entender , se aclaran dudas y es un espacio cómodo dónde se ven las clases y el profe es exelente 👌dando las clases y enseñando</p>
+                        </cite>
+                    </article>
+                    <article class="card border-light col-xl-6 col-md-12 col-sm-12">
+                        <cite>
+                            <h2>Daniel Ayala - <small>Gestión de Proyectos Empresariales</small></h2>
+                            <img src="{{ asset('imgs/sin-foto.jpg') }}" alt="Daniel Ayala, Gestion de proyectos Empresariales."/>
+                            <p>Buenas noches, las clases son bien estructuradas y divertidas, otorgan un aprendizaje óptimo. Excelentes metodologías para tener conocimiento de diversos temas con facilidad, y buena comprensión</p>
+                        </cite>
+                    </article>
+                <article class="card border-light col-xl-6 col-md-12 col-sm-12">
                     <cite>
-                        <h2>Carlos Astudillo - <small>Diseño Gráfico</small></h2>
-                        <img src="{{ asset('imgs/carlos.png') }}" alt="Carlos Astudillo"/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus eius itaque, debitis maxime rerum blanditiis, distinctio molestiae esse et, odit facere minima inventore? Expedita maxime numquam suscipit voluptas maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error maxime.</p>
-                    </cite>
-                    <cite>
-                        <h2>Carlos Astudillo - <small>Diseño Gráfico</small></h2>
-                        <img src="{{ asset('imgs/carlos.png') }}" alt="Carlos Astudillo"/>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus eius itaque, debitis maxime rerum blanditiis, distinctio molestiae esse et, odit facere minima inventore? Expedita maxime numquam suscipit voluptas maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error maxime.</p>
+                        <h2>Liliana Suarez - <small>Gestión de Proyectos Empresariales</small></h2>
+                        <img src="{{ asset('imgs/liliana-suarez.jpg') }}" alt="Liliana Suarez, Gestion de proyectos Empresariales."/>
+                        <p>buenas noches, he disfrutado mucho las clases que hemos tenido, han sido full interactivas lo cual nos ayuda a compartir nuestras ideas y entender más cada tema, me gusta mucho la metodología que se emplea y espero y sigamos así🫶🏻 además, estoy muy satisfecha con la interacción del grupo del que formo parte</p>
                     </cite>
                 </article>
-                </section></section>
+                <article class="card border-light col-xl-6 col-md-12 col-sm-12">
+                    <cite>
+                        <h2>Neisbeth Hernández - <small>Gestión de Proyectos Empresariales</small></h2>
+                        <img src="{{ asset('imgs/liliana-suarez.jpg') }}" alt="Neisbeth Hernández, Gestion de proyectos Empresariales."/>
+                        <p>Buenas noches, súper chévere la clases que hemos tenido, nos ayudan a interactuar en grupo, compartir y aprender conocimientos, gracias Erick Maldonado, por hacer las clases dinámicas y divertidas✨🫶</p>
+                    </cite>
+                </article>
+                <article class="card border-light col-xl-6 col-md-12 col-sm-12">
+                    <cite>
+                        <h2>María Frias - <small>Gestión de Proyectos Empresariales</small></h2>
+                        <img src="{{ asset('imgs/maria-frias.jpg') }}" alt="Maria Frias, Gestion de proyectos Empresariales."/>
+                        <p>Buenas tardes, excelente ambiente de aprendizaje. Donde hay libre participación, se aclaran las dudas. 
+                            Y las técnicas de enseñanzas son muy buenas. Gracias por todo. </p>
+                    </cite>
+                </article>
+                <article class="card border-light col-xl-6 col-md-12 col-sm-12">
+                    <cite>
+                        <h2>Carlos Guaiquire - <small>Gestión de Proyectos Empresariales</small></h2>
+                        <img src="{{ asset('imgs/carlos-guaiquire.jpg') }}" alt="Carlos Guaiquire, Gestion de proyectos Empresariales."/>
+                        <p>Buenas tardes, las clases muy chéveres, dinámicas, donde se aprende mucho, son excelentes la verdad.</p>
+                    </cite>
+                </article>
+                </section>
+            </section>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn">Más información</button>
@@ -139,7 +241,25 @@
                 <div class="modal-body">
                 <section class="container">
                     <section class="row">                
-                        <article>
+                        <article class="card border-light col-xl-6 col-md-12 col-sm-12">
+                            <cite>
+                                <h2>Carlos Astudillo - <small>Diseño Gráfico</small></h2>
+                                <p><iframe width="100%" height="315" src="https://www.youtube.com/embed/u2yn5tFohnw?si=Jv4WAphjtItPeP7r&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+                            </cite>
+                        </article>          
+                        <article class="card border-light col-xl-6 col-md-12 col-sm-12">
+                            <cite>
+                                <h2>Carlos Astudillo - <small>Diseño Gráfico</small></h2>
+                                <p><iframe width="100%" height="315" src="https://www.youtube.com/embed/u2yn5tFohnw?si=Jv4WAphjtItPeP7r&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+                            </cite>
+                        </article>          
+                        <article class="card border-light col-xl-6 col-md-12 col-sm-12">
+                            <cite>
+                                <h2>Carlos Astudillo - <small>Diseño Gráfico</small></h2>
+                                <p><iframe width="100%" height="315" src="https://www.youtube.com/embed/u2yn5tFohnw?si=Jv4WAphjtItPeP7r&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+                            </cite>
+                        </article>          
+                        <article class="card border-light col-xl-6 col-md-12 col-sm-12">
                             <cite>
                                 <h2>Carlos Astudillo - <small>Diseño Gráfico</small></h2>
                                 <p><iframe width="100%" height="315" src="https://www.youtube.com/embed/u2yn5tFohnw?si=Jv4WAphjtItPeP7r&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
@@ -163,7 +283,7 @@
 
     <!-- footer -->
     <footer class="container">
-        &copy; 2023 - <?php echo date('Y'); ?> - Derechos Reservados - Harmony Academy - Erick Maldonado 
+        &copy; 2023 - <?php echo date('Y'); ?> - Derechos Reservados - Harmony Academy - Erick Maldonado | Desarrollado y Diseñado por <a title="Desarrollado y Diseñado por CEAMDEV.COM - Carlos Astudillo " href="https://ceamdev.com" alt="Desarrollado y Diseñado por CEAMDEV.COM - Carlos Astudillo">CEAMDEV.COM</a>
     </footer>
     <!-- script -->
     <script src="{{ asset('js/popper.min.js') }}" ></script>

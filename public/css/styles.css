@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: content-box; 
 }
 :root{
     --Purp:#5a2583;
@@ -12,12 +12,12 @@
     --LGrey:#c2c0c4;
     --White:#ffffff;
     --Black:#000000;
-}
-body {
-    background-color: var(--DarkPurp);
-    color: var(--White);
-    font-size: 48px;
-}
+    }
+    body {
+        background-color: var(--Purp);
+        color: var(--White);
+        font-size: 48px;
+    }
     header {
         background-color: var(--Purp);
         padding: 50px;
@@ -116,6 +116,7 @@ body {
         width: 100%;
     }
     section cite {
+        display: block;
         margin: 0px auto;
         padding: 10px;
         font-size: 1em;
