@@ -5,21 +5,21 @@
     <section class="row course-info">
         <article class="col-xl-4 col-md-4 col-sm-12">
             <h3>PRÁCTICOS</h3>
-            <img class="img-fluid rounded mx-auto d-block" src="{{ asset('imgs/sin-foto.jpg') }}" alt="Cursos practicos">
+            <img class="img-fluid rounded mx-auto d-block" src="{{ asset('imgs/practicos.png') }}" alt="Cursos practicos">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </article>
         <article class="col-xl-4 col-md-4 col-sm-12">
             <h3>FUNCIONALES</h3>
-            <img class="img-fluid rounded mx-auto d-block" src="{{ asset('imgs/sin-foto.jpg') }}" alt="Cursos funcionales">
+            <img class="img-fluid rounded mx-auto d-block" src="{{ asset('imgs/funcionales.png') }}" alt="Cursos funcionales">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </article>
         <article class="col-xl-4 col-md-4 col-sm-12">
             <h3>ACTUALIZADOS</h3>
-            <img class="img-fluid rounded mx-auto d-block" src="{{ asset('imgs/sin-foto.jpg') }}" alt="Cursos actualizados">
+            <img class="img-fluid rounded mx-auto d-block" src="{{ asset('imgs/actualizados.png') }}" alt="Cursos actualizados">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

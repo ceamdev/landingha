@@ -14,7 +14,8 @@
     --Black:#000000;
     }
     body {
-        background-color: var(--Purp);
+        background: var(--Purp);
+        /* background-color: var(--Purp); */
         color: var(--White);
         font-size: 48px;
     }
